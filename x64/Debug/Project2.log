@@ -1,0 +1,45 @@
+﻿  s21_constructor.cpp
+E:\Project2\s21_constructor.cpp(3,35): error C2661: S21MATRIX::S21MATRIX: нет перегруженной функции, принимающей 2 аргументов
+E:\Project2\s21_constructor.cpp(3,35): message : при попытке сопоставить список аргументов "(int, int)"
+E:\Project2\s21_constructor.cpp(5,12): error C2511: S21MATRIX::S21MATRIX(int,int): перегруженная функция-член не найдена в "S21MATRIX"
+E:\Project2\s21_matrix_oop.h(10,7): message : см. объявление "S21MATRIX"
+E:\Project2\s21_constructor.cpp(7,9): error C3861: runtime_error: идентификатор не найден
+E:\Project2\s21_constructor.cpp(9,2): error C2597: недопустимая ссылка на нестатический член "S21MATRIX::rows_"
+E:\Project2\s21_matrix_oop.h(12,6): message : см. объявление "S21MATRIX::rows_"
+E:\Project2\s21_constructor.cpp(10,2): error C2597: недопустимая ссылка на нестатический член "S21MATRIX::cols_"
+E:\Project2\s21_matrix_oop.h(12,13): message : см. объявление "S21MATRIX::cols_"
+E:\Project2\s21_constructor.cpp(13,26): error C2597: недопустимая ссылка на нестатический член "S21MATRIX::rows_"
+E:\Project2\s21_matrix_oop.h(12,6): message : см. объявление "S21MATRIX::rows_"
+E:\Project2\s21_constructor.cpp(13,3): error C2597: недопустимая ссылка на нестатический член "S21MATRIX::matrix_"
+E:\Project2\s21_matrix_oop.h(13,11): message : см. объявление "S21MATRIX::matrix_"
+E:\Project2\s21_constructor.cpp(14,23): error C2597: недопустимая ссылка на нестатический член "S21MATRIX::rows_"
+E:\Project2\s21_constructor.cpp(14,23): message : см. объявление "S21MATRIX::rows_"
+E:\Project2\s21_constructor.cpp(14,23): error C3867: "S21MATRIX::rows_": нестандартный синтаксис; используйте "&", чтобы создать указатель на член
+E:\Project2\s21_constructor.cpp(14,23): error C2568: <: не удается разрешить перегрузку функции
+E:\Project2\s21_constructor.cpp(15,4): error C2597: недопустимая ссылка на нестатический член "S21MATRIX::matrix_"
+E:\Project2\s21_constructor.cpp(15,4): message : см. объявление "S21MATRIX::matrix_"
+E:\Project2\s21_constructor.cpp(15,4): error C3867: "S21MATRIX::matrix_": нестандартный синтаксис; используйте "&", чтобы создать указатель на член
+E:\Project2\s21_constructor.cpp(15,4): error C2568: [: не удается разрешить перегрузку функции
+E:\Project2\s21_constructor.cpp(18,9): error C2061: синтаксическая ошибка: идентификатор "bad_alloc"
+E:\Project2\s21_constructor.cpp(18,2): error C2310: в блоках catch должен быть указан один тип
+E:\Project2\s21_constructor.cpp(19,3): error C2597: недопустимая ссылка на нестатический член "S21MATRIX::rows_"
+E:\Project2\s21_matrix_oop.h(12,6): message : см. объявление "S21MATRIX::rows_"
+E:\Project2\s21_constructor.cpp(20,3): error C2597: недопустимая ссылка на нестатический член "S21MATRIX::cols_"
+E:\Project2\s21_matrix_oop.h(12,13): message : см. объявление "S21MATRIX::cols_"
+E:\Project2\s21_constructor.cpp(26,14): error C2661: S21MATRIX::S21MATRIX: нет перегруженной функции, принимающей 2 аргументов
+E:\Project2\s21_constructor.cpp(26,14): message : при попытке сопоставить список аргументов "(int, int)"
+  s21_sum.cpp
+E:\Project2\s21_sum.cpp(3,6): error C2653: s21_matrix_oop: не является именем класса или пространства имен
+E:\Project2\s21_sum.cpp(4,6): error C2065: rows: необъявленный идентификатор
+E:\Project2\s21_sum.cpp(4,20): error C2039: "rows": не является членом "S21MATRIX".
+E:\Project2\s21_matrix_oop.h(10,7): message : см. объявление "S21MATRIX"
+E:\Project2\s21_sum.cpp(4,28): error C2065: cols: необъявленный идентификатор
+E:\Project2\s21_sum.cpp(4,42): error C2039: "cols": не является членом "S21MATRIX".
+E:\Project2\s21_matrix_oop.h(10,7): message : см. объявление "S21MATRIX"
+E:\Project2\s21_sum.cpp(5,9): error C3861: runtime_error: идентификатор не найден
+E:\Project2\s21_sum.cpp(7,22): error C2065: rows: необъявленный идентификатор
+E:\Project2\s21_sum.cpp(8,23): error C2065: cols: необъявленный идентификатор
+E:\Project2\s21_sum.cpp(9,4): error C2065: matrix: необъявленный идентификатор
+E:\Project2\s21_sum.cpp(9,26): error C2039: "matrix": не является членом "S21MATRIX".
+E:\Project2\s21_matrix_oop.h(10,7): message : см. объявление "S21MATRIX"
+  Создание кода...
